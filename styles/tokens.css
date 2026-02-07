@@ -1,0 +1,63 @@
+:root {
+    /* =========================
+     Neutrals (airy base)
+  ========================== */
+    --cream: #fbfbf8;
+    /* optional alias */
+    --bg: #fbfbfa;
+    --bg-alt: #f4f6f3;
+    --card: rgba(255, 255, 255, 0.88);
+
+    --ink: #111827;
+    /* optional alias */
+    --text: #1f2933;
+    --muted: #6b7280;
+
+    --border: rgba(17, 24, 39, 0.10);
+    --border-soft: rgba(17, 24, 39, 0.06);
+
+    /* =========================
+     Brand accent (green)
+  ========================== */
+    --accent: #a6c48a;
+    --accent-2: #5b7a5f;
+    /* darker green for hover/text */
+    --accent-soft: rgba(166, 196, 138, 0.18);
+
+    /* =========================
+     Whimsy palette (pastels)
+  ========================== */
+    --lavender: #cdb4db;
+    --pink-soft: #ffc8dd;
+    --pink-softer: #ffafcc;
+
+    --blue-soft: #bde0fe;
+    --blue-softer: #a2d2ff;
+
+    /* Useful “pill” defaults */
+    --pill-bg: rgba(255, 200, 221, 0.25);
+    --pill-text: rgba(17, 24, 39, 0.78);
+
+    /* =========================
+     Shape + depth
+  ========================== */
+    --radius: 18px;
+    --radius-soft: 26px;
+    --radius-pill: 999px;
+
+    --shadow-soft: 0 18px 50px rgba(17, 24, 39, 0.06);
+    --shadow: 0 14px 34px rgba(17, 24, 39, 0.08);
+    --shadow-pop: 0 10px 30px rgba(17, 24, 39, 0.10);
+
+    /* =========================
+     Cute glow / gradients
+  ========================== */
+    --cute-grad: linear-gradient(135deg,
+            rgba(255, 200, 221, 0.65),
+            rgba(189, 224, 254, 0.55),
+            rgba(205, 180, 219, 0.55));
+
+    --scroll-track: #f7f4f2;
+    --scroll-thumb: #e6cfe3;
+    --scroll-thumb-hover: #d8b7d4;
+}
