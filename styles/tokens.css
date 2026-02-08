@@ -1,42 +1,38 @@
-:root {
+﻿:root {
     /* =========================
      Neutrals (airy base)
   ========================== */
     --cream: #fbfbf8;
     /* optional alias */
-    --bg: #fbfbfa;
-    --bg-alt: #f4f6f3;
-    --card: rgba(255, 255, 255, 0.88);
+    --bg: #ffffff;
+    --bg-alt: #f4f1f6;
+    --card: rgba(255, 255, 255, 0.92);
 
-    --ink: #111827;
+    --ink: #4a434d;
     /* optional alias */
-    --text: #1f2933;
-    --muted: #6b7280;
+    --text: #4a434d;
+    --muted: #756b74;
 
-    --border: rgba(17, 24, 39, 0.10);
-    --border-soft: rgba(17, 24, 39, 0.06);
-
-    /* =========================
-     Brand accent (green)
-  ========================== */
-    --accent: #a6c48a;
-    --accent-2: #5b7a5f;
-    /* darker green for hover/text */
-    --accent-soft: rgba(166, 196, 138, 0.18);
+    --border: rgba(74, 67, 77, 0.12);
+    --border-soft: rgba(74, 67, 77, 0.08);
 
     /* =========================
-     Whimsy palette (pastels)
+     Pastel palette (from tokens)
   ========================== */
-    --lavender: #cdb4db;
-    --pink-soft: #ffc8dd;
-    --pink-softer: #ffafcc;
+    --accent: #9d858d;
+    --accent-2: #bba0b2;
+    --accent-soft: rgba(157, 133, 141, 0.18);
 
-    --blue-soft: #bde0fe;
-    --blue-softer: #a2d2ff;
+    --lavender: #a4a8d1;
+    --pink-soft: #bba0b2;
+    --pink-softer: #9d858d;
 
-    /* Useful “pill” defaults */
-    --pill-bg: rgba(255, 200, 221, 0.25);
-    --pill-text: rgba(17, 24, 39, 0.78);
+    --blue-soft: #a4bfeb;
+    --blue-softer: #8cabbe;
+
+    /* Useful "pill" defaults */
+    --pill-bg: rgba(164, 191, 235, 0.28);
+    --pill-text: rgba(74, 67, 77, 0.85);
 
     /* =========================
      Shape + depth
@@ -45,19 +41,19 @@
     --radius-soft: 26px;
     --radius-pill: 999px;
 
-    --shadow-soft: 0 18px 50px rgba(17, 24, 39, 0.06);
-    --shadow: 0 14px 34px rgba(17, 24, 39, 0.08);
-    --shadow-pop: 0 10px 30px rgba(17, 24, 39, 0.10);
+    --shadow-soft: 0 18px 50px rgba(74, 67, 77, 0.08);
+    --shadow: 0 14px 34px rgba(74, 67, 77, 0.10);
+    --shadow-pop: 0 12px 30px rgba(74, 67, 77, 0.12);
 
     /* =========================
-     Cute glow / gradients
+     Pastel gradients
   ========================== */
     --cute-grad: linear-gradient(135deg,
-            rgba(255, 200, 221, 0.65),
-            rgba(189, 224, 254, 0.55),
-            rgba(205, 180, 219, 0.55));
+            rgba(187, 160, 178, 0.55),
+            rgba(164, 168, 209, 0.55),
+            rgba(164, 191, 235, 0.55));
 
-    --scroll-track: #f7f4f2;
-    --scroll-thumb: #e6cfe3;
-    --scroll-thumb-hover: #d8b7d4;
+    --scroll-track: #f4f1f6;
+    --scroll-thumb: #bba0b2;
+    --scroll-thumb-hover: #9d858d;
 }
