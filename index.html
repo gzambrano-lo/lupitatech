@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles/tokens.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/layout_wrappers.css" />
-    <link rel="stylesheet" href="styles/nav_header.css" />
     <link rel="stylesheet" href="styles/hero.css" />
     <link rel="stylesheet" href="styles/components.css" />
     <link rel="stylesheet" href="styles/pages_grids.css" />
@@ -20,6 +19,8 @@
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/accessibility.css" />
     <link rel="stylesheet" href="styles/portfolio_v2.css" />
+    <link rel="stylesheet" href="styles/custom_nav.css" />
+    <link rel="stylesheet" href="styles/mobile_recruiter.css" />
 </head>
 
 <body>
@@ -28,7 +29,10 @@
     <!-- header -->
     <header class="site-header" id="top">
         <div class="header-inner">
-            <a class="brand" href="#top" aria-label="Home">LupitaTech</a>
+            <a class="brand" href="#top" aria-label="LupitaTech home">
+                <span class="brand-mark" aria-hidden="true">LT</span>
+                <span class="brand-name">LupitaTech</span>
+            </a>
 
             <nav class="nav" aria-label="Primary navigation">
                 <a href="#projects">Projects</a>
@@ -44,14 +48,14 @@
             <div class="hero-inner">
                 <div class="hero-copy">
                     <p class="pill" aria-label="Summary">
-                        IT Support Specialist AAST student - Websites - Deployment
+                        IT Support Specialist - Web Deployment - AAST Student
                     </p>
 
                     <h1 id="intro-title">Guadalupe Zambrano</h1>
 
                     <p class="hero-text">
-                        I build simple websites for real clients and keep them running. This
-                        page shows what I have built, deployed, and updated.
+                        I support users, build practical websites, and handle the deployment details
+                        that keep small web projects online.
                     </p>
 
                     <div class="hero-actions" role="group" aria-label="Primary actions">
@@ -169,18 +173,17 @@
                         <article class="card" aria-labelledby="p3-title">
                             <header class="card-header">
                                 <h3 id="p3-title">Fig &amp; Berry</h3>
-                                <p class="muted">Personal project</p>
+                                <p class="muted">CompTIA A+ study guide</p>
                             </header>
 
                             <p>
-                                My sandbox site. I use it to test layouts, styling, and
-                                deployment.
+                                A study guide for organizing CompTIA A+ notes, resources, and
+                                troubleshooting topics while I continue my IT support coursework.
                             </p>
 
                             <ul class="feature-list">
-                                <li>Design experiments</li>
-                                <li>Iteration practice</li>
-                                <li>Version control</li>
+                                <li>Hardware, software, and networking notes</li>
+                                <li>Study resources organized by topic</li>
                             </ul>
 
                             <div class="project-actions">

@@ -1,0 +1,328 @@
+/* mobile_recruiter.css */
+
+@media (max-width: 720px) {
+    html {
+        scroll-padding-top: 126px;
+    }
+
+    :root {
+        --mobile-paper: #fbfbfa;
+        --mobile-paper-soft: #f4f3f1;
+        --mobile-check: rgba(157, 133, 141, 0.1);
+        --mobile-rule: rgba(140, 171, 190, 0.62);
+    }
+
+    body {
+        background-color: #f5f1eb;
+        background-image:
+            linear-gradient(90deg, var(--mobile-check) 1px, transparent 1px),
+            linear-gradient(var(--mobile-check) 1px, transparent 1px);
+        background-size: 90px 90px;
+    }
+
+    .site-header {
+        border-bottom: 1px solid rgba(74, 67, 77, 0.1);
+        background: rgba(251, 251, 250, 0.94);
+        box-shadow: none;
+    }
+
+    .header-inner {
+        gap: 10px;
+    }
+
+    .brand-mark {
+        width: 34px;
+        height: 34px;
+        border-radius: 12px;
+        border-color: rgba(74, 67, 77, 0.12);
+        background: var(--mobile-paper-soft);
+        font-size: 12px;
+        box-shadow: none;
+    }
+
+    .brand-name {
+        font-size: 13px;
+        letter-spacing: 0.07em;
+    }
+
+    .brand-name::after {
+        display: none;
+    }
+
+    .nav {
+        padding: 4px;
+        border-radius: 14px;
+        background: var(--mobile-paper);
+    }
+
+    .nav a {
+        min-height: 34px;
+        padding: 8px 6px;
+        border-radius: 11px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .nav .nav-button {
+        background: rgba(140, 171, 190, 0.16);
+        box-shadow: none;
+    }
+
+    .hero {
+        padding: 1rem 1rem 1.25rem;
+    }
+
+    .hero::before {
+        display: none;
+    }
+
+    .hero-inner {
+        gap: 18px;
+        padding: 18px 12px 14px;
+        border: 1px solid rgba(74, 67, 77, 0.11);
+        border-radius: 18px;
+        background: var(--mobile-paper);
+        box-shadow: 0 10px 24px rgba(74, 67, 77, 0.06);
+    }
+
+    .pill {
+        width: 100%;
+        margin-bottom: 14px;
+        padding: 0 0 10px;
+        border: 0;
+        border-bottom: 2px solid var(--mobile-rule);
+        border-radius: 0;
+        background: transparent;
+        font-size: 11px;
+        line-height: 1.35;
+        letter-spacing: 0.05em;
+    }
+
+    .hero h1 {
+        margin-bottom: 8px;
+        font-size: 38px;
+        line-height: 1;
+    }
+
+    .hero-text {
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(74, 67, 77, 0.8);
+    }
+
+    .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    .button,
+    .button.small {
+        min-height: 42px;
+        border-radius: 12px;
+        padding: 10px 12px;
+        font-size: 14px;
+        font-weight: 700;
+        box-shadow: none;
+    }
+
+    .quick-links {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+        margin-bottom: 14px;
+    }
+
+    .quick-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 36px;
+        border: 1px solid rgba(74, 67, 77, 0.1);
+        border-radius: 12px;
+        background: var(--mobile-paper-soft);
+        color: var(--text);
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .note {
+        margin: 0;
+        padding-left: 12px;
+        border-left: 3px solid var(--mobile-rule);
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    .hero-panel {
+        gap: 10px;
+    }
+
+    .panel-card {
+        padding: 14px 15px 15px;
+        border-radius: 14px;
+        background: #ffffff;
+        box-shadow: none;
+    }
+
+    .panel-card::before {
+        left: 15px;
+        width: 68px;
+        background: var(--mobile-rule);
+    }
+
+    .panel-label {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .panel-title {
+        margin-bottom: 6px;
+        font-size: 19px;
+    }
+
+    .panel-text,
+    .panel-list {
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    .section {
+        padding: 1.25rem 1rem;
+    }
+
+    .section+.section::before {
+        display: none;
+    }
+
+    .section-inner {
+        padding: 18px 12px;
+        border: 1px solid rgba(74, 67, 77, 0.11);
+        border-radius: 18px;
+        background: var(--mobile-paper);
+        box-shadow: 0 10px 24px rgba(74, 67, 77, 0.06);
+    }
+
+    .section h2 {
+        margin-bottom: 12px;
+        padding-bottom: 9px;
+        border-bottom: 2px solid var(--mobile-rule);
+        font-size: 26px;
+    }
+
+    .section-intro {
+        margin-bottom: 0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .projects-grid,
+    .info-cards {
+        gap: 12px;
+        margin-top: 14px;
+    }
+
+    .card {
+        padding: 16px;
+        border-color: rgba(74, 67, 77, 0.1);
+        border-radius: 14px;
+        background: #ffffff;
+        box-shadow: none;
+    }
+
+    .card:hover,
+    .project-card .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .card-header {
+        margin-bottom: 8px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .muted {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+    .feature-list {
+        margin: 10px 0 0;
+        padding-left: 0;
+        list-style: none;
+        display: grid;
+        gap: 7px;
+        font-size: 14px;
+    }
+
+    .feature-list li {
+        position: relative;
+        padding-left: 18px;
+        line-height: 1.35;
+    }
+
+    .feature-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.55em;
+        width: 7px;
+        height: 7px;
+        border-radius: 2px;
+        background: var(--mobile-rule);
+    }
+
+    .project-actions,
+    .contact-links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+        margin-top: 14px;
+    }
+
+    .project-actions .button:only-child {
+        grid-column: 1 / -1;
+    }
+
+    #contact p {
+        font-size: 15px;
+    }
+
+    .contact-links {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links .button:first-child {
+        border-color: rgba(140, 171, 190, 0.38);
+        background: rgba(140, 171, 190, 0.18);
+        color: var(--ink);
+    }
+
+    .site-footer {
+        background: transparent;
+    }
+
+    .footer-inner {
+        padding: 20px 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-actions {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-links {
+        grid-template-columns: 1fr;
+    }
+}
